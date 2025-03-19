@@ -44,15 +44,15 @@ Booktopia isn’t just an online bookstore; it’s an immersive literary shoppin
 2. **Set up the Database:**
    
    ```sh
-   Import `shop_db.sql` into **phpMyAdmin**.
+   Import `shop_db.sql` into phpMyAdmin.
    Update the database credentials in `config.php`.
 
 3. **Run the Application:**
 
    ```sh
-   **Start** a local server using **XAMPP** or **WAMP**.
-   **Place** the project files in the `htdocs` folder.
-   **Open** your browser and visit: [http://localhost/Booktopia/](http://localhost/Booktopia/)
+   Start a local server using XAMPP or WAMP.
+   Place the project files in the `htdocs` folder.
+   Open your browser and visit: [http://localhost/Booktopia/](http://localhost/Booktopia/)
 
 ---
 

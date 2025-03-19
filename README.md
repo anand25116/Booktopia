@@ -18,14 +18,14 @@ Booktopia isn’t just an online bookstore; it’s an immersive literary shoppin
 - 📊 **Admin Panel** – Manage books, orders, and users effortlessly.
 - 🛍️ **Wishlist & Cart System** – Save your must-reads for later.
 - ⭐ **User Reviews & Ratings** – Discover top-rated books through reader feedback.
-- 🚀 **Fast & Secure Backend** – Built for efficiency and performance.
+- 🚀 **Fast & Secure Backend** – Built with PHP and MySQL for efficiency and performance.
 
 ---
 
 ## 💡 Why Booktopia?
-- **Aesthetic & User-Friendly** 🌸🎨 – A beautifully designed interface for book lovers.
+- **Aesthetic & User-Friendly** 🌸🎨 – A beautifully designed interface using Bootstrap.
 - **Diverse Collection** 📚 – From bestsellers to hidden gems, find it all here.
-- **Reliable & Secure** 🔐 – Safe transactions and user data protection.
+- **Reliable & Secure** 🔐 – Safe transactions and user data protection with PHP & MySQL.
 - **More Than Just a Store!** ☕ – Join book discussions, get recommendations, and explore book-inspired goodies!
 
 ---
@@ -33,22 +33,20 @@ Booktopia isn’t just an online bookstore; it’s an immersive literary shoppin
 ## 🚀 Getting Started
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/Booktopia.git
+   git clone https://github.com/anand25116/Booktopia.git
    cd Booktopia
    ```
-2. Install dependencies:
-   ```sh
-   npm install  # For frontend (React, Vue, etc.)
-   pip install -r requirements.txt  # For backend (Flask, Django, etc.)
-   ```
+2. Set up the database:
+   - Import `booktopia.sql` into **phpMyAdmin**.
+   - Update database credentials in `config.php`.
+
 3. Run the application:
-   ```sh
-   npm start  # or python app.py (if using Flask)
-   ```
-4. Open your browser and visit:
-   ```sh
-   http://localhost:3000
-   ```
+   - Start a local server using XAMPP or WAMP.
+   - Place the project files in the `htdocs` folder.
+   - Open your browser and visit:
+     ```sh
+     http://localhost/Booktopia/
+     ```
 
 ---
 
